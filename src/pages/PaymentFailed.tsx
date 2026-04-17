@@ -22,7 +22,7 @@ export default function PaymentFailed() {
             return imageUrl
         }
         // В production добавляем base path только если его еще нет
-        const basePath = '/dukhovnoye_razvitiye'
+        const basePath = '/razvitie'
         if (imageUrl.startsWith(basePath)) {
             return imageUrl
         }

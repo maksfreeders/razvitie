@@ -12,7 +12,7 @@ const PublicOffer = lazy(() => import('./pages/PublicOffer'))
 const PrivacyPolicy = lazy(() => import('./pages/PrivacyPolicy'))
 
 // Base path только для production (GitHub Pages)
-const basename = import.meta.env.PROD ? '/dukhovnoye_razvitiye' : ''
+const basename = import.meta.env.PROD ? '/razvitie' : ''
 
 // Компонент загрузки
 const LoadingFallback = () => (

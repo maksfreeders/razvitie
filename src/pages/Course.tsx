@@ -96,7 +96,7 @@ export default function CoursePage() {
       // Используем getImageUrl для правильной обработки пути
       const relativePath = getImageUrl(heroImage)
       const imageUrl = import.meta.env.PROD
-        ? `https://AnnaChikalova.github.io${relativePath}`
+        ? `https://maksfreeders.github.io${relativePath}`
         : `${window.location.origin}${relativePath}`
 
       let ogImage = document.querySelector('meta[property="og:image"]')
@@ -122,7 +122,7 @@ export default function CoursePage() {
       return imageUrl
     }
     // В production добавляем base path только если его еще нет
-    const basePath = '/dukhovnoye_razvitiye'
+    const basePath = '/razvitie'
     if (imageUrl.startsWith(basePath)) {
       return imageUrl
     }

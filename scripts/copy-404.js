@@ -4,7 +4,7 @@ import { join } from 'path'
 const distPath = join(process.cwd(), 'dist')
 const indexPath = join(distPath, 'index.html')
 const notFoundPath = join(distPath, '404.html')
-const basePath = '/dukhovnoye_razvitiye'
+const basePath = '/razvitie'
 
 try {
     // Читаем index.html

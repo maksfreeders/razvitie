@@ -1,9 +1,9 @@
 {
-  "name": "dukhovnoye_razvitiye",
+  "name": "razvitie",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://AnnaChikalova.github.io/dukhovnoye_razvitiye",
+  "homepage": "https://maksfreeders.github.io/razvitie",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build && node scripts/copy-404.js",
